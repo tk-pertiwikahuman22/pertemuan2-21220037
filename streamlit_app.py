@@ -10,7 +10,7 @@ Aplikasi ini memungkinkan Anda untuk mengunggah file dataset CSV dan menampilkan
 Anda bisa memilih kolom mana yang akan divisualisasikan dan jenis grafik yang ingin digunakan.
 """)
 
-# Fitur untuk mengunggah file CSV
+# Fitur untuk mengunggah file  CSV
 uploaded_file = st.file_uploader("Pilih file CSV Anda", type=["csv"])
 
 if uploaded_file is not None:
